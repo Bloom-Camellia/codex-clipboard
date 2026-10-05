@@ -1,0 +1,14 @@
+* text=auto
+
+# Keep the UTF-8 BOM in PowerShell source for Windows PowerShell 5.1.
+# These rules normalize line endings; they do not add or remove a BOM.
+*.ps1 text eol=crlf
+*.psm1 text eol=crlf
+*.cs text eol=crlf
+*.md text eol=lf
+*.json text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.png binary
+*.zip binary

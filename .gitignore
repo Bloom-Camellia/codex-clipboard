@@ -1,0 +1,15 @@
+# Local screenshots, process state, test fixtures, and release artifacts.
+/screenshots/
+/.state/
+/tests/runs/
+/dist/
+
+# PowerShell profile backups and temporary files.
+*.codex-clipboard-backup-*
+*.codex-clipboard-tmp-*
+*.partial
+*.tmp
+*.temp
+
+# Keep local implementation planning out of the public repository.
+/docs/superpowers/

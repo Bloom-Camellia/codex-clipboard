@@ -1,0 +1,6 @@
+﻿{
+  "retainCount": 30,
+  "pollMilliseconds": 60,
+  "screenshotDirectory": "screenshots",
+  "hotkey": "Ctrl+Q"
+}
